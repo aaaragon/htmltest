@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>InstagramFeed</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    <kjasn></kjasn>
+    <title>The Postcard</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+ </head>
 <body>
-    <div class="header">
-       <h1> Breath Code Photo Feed </h1>
-    </div>
-    
-    <div class="wrapper">
+    <div class="main-content">
+    <header>
 
-        <div class="post">
-            <div class="one">
-                <h1>My Post</h1>
-                <span>12/14</span>
-                <img src="https://images.pexels.com/photos/326012/pexels-photo-326012.jpeg" alt="rabbit">
-                <p>Look at this cute rabbit.</p>
+    </header>
 
+    <section>
+        <form class="postcard" action="http://formspree.io/andre.aragon001@mymdc.net" method="post">
+            <div class="postcard-header">
+                <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png">
+                <h1>My Postcard</h1>
             </div>
-            <div class="two">
-                <h1> Sec </h1>
+            
+            
+            <div class="postcard-body">
+                <div class="body-left">
+                    <p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
 
+                    <p>This is so cool, can't wait to start doing more stuff!</p>
+                </div>
+                <div class="body-right">
+                    <input type="text" name="fullname" placeholder="Some Name">
+                    <input type="text" name="email" placeholder="Some Email">
+                    <input type="text" name="message" placeholder="Some comment">
+                </div>
             </div>
+            
+            <div class="postcard-footer">
+                <input type="submit" value="Send My Postcard">
+            </div>
+        </form>
+    </section>
 
-        </div>
+    <footer>
 
+    </footer>
     </div>
 </body>
 </html>
