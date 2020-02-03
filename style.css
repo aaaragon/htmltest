@@ -1,0 +1,62 @@
+body {
+    background: lightblue
+}
+
+.container{
+    margin-top: -16px;
+}
+
+.navbar-brand{
+    margin-top: 10px;
+}
+
+.navbar-brand img{
+    height: 40px;
+}
+
+#navbarDropdownMenuLink{
+    margin-top: 12px;
+}
+
+.form-group button{
+    margin: 1px; margin-top: 7px; 
+    padding: 2px;
+    padding-right: 5px; padding-left: 5px;
+    border-color: lightgray;
+}
+
+.modal-body img{
+    height: 20px;
+    width: 20px;
+}
+
+.gridOrList{
+    margin-top: 90px; text-align: center;
+}
+
+.grid{
+    margin: 0; margin-top: 20px; 
+    padding-bottom: 30px; background: lightblue;
+}
+.grid img{
+    margin-bottom: 15px; border-radius: 10px;
+}
+
+
+.card{
+    margin: auto; margin-top: 15px; text-align: center;
+}
+
+.post-title{
+    margin: 0; float: left;
+}
+
+.grid .date{
+    float: right; margin: 0; color: grey;
+}
+
+footer{
+    text-align: center;
+    background: lightblue;
+    color: dimgray;
+}
